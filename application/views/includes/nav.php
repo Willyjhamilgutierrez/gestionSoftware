@@ -181,7 +181,7 @@
 								<?php echo form_close(); ?>
 							</span></a></li>
 					<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-							href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-file"></i><span
+							href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-checkbox-marked"></i><span
 								class="hide-menu">
 								<?php echo form_open_multipart('estudiante/verinactivos'); ?>
 								<button type="submit" class="btn">EST. INACTIVADOS</button>
