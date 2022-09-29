@@ -192,7 +192,7 @@
                                     class="hide-menu">CRITERIOS DE CALIF.</span></a></li>
                         <li class="text-center p-40 upgrade-btn">
 						<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-                                href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-alert-outline"></i><span
+                                href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span
                                     class="hide-menu">CREAR CRITERIO</span></a></li>
                         <li class="text-center p-40 upgrade-btn">
 						<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
