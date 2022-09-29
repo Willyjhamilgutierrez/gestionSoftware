@@ -208,7 +208,7 @@
                         <li class="text-center p-40 upgrade-btn">
                         <li class="text-center p-40 upgrade-btn">
                             <a href="<?php echo base_url(); ?>"
-                                class="btn d-block w-100 btn-danger text-white" target="_blank">Upgrade to Pro</a>
+                                class="btn d-block w-100 btn-danger text-white" target="_blank">TABLERO</a>
                         </li>
                     </ul>
 
