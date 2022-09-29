@@ -202,6 +202,10 @@
 						<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
                                 href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-alert-outline"></i><span
                                     class="hide-menu">REPORTES</span></a></li>
+						<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+								href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-alert-outline"></i><span
+									class="hide-menu">SETTINGS</span></a></li>
+                        <li class="text-center p-40 upgrade-btn">
                         <li class="text-center p-40 upgrade-btn">
                             <a href="<?php echo base_url(); ?>"
                                 class="btn d-block w-100 btn-danger text-white" target="_blank">Upgrade to Pro</a>
