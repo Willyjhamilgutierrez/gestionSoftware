@@ -8,26 +8,27 @@
     </div>
 
     <?php 
-    switch ($msg) {
-      case '1':
-        $mensaje="Gracias por utilizar nuestro sistema";
-        break;
-
-      case '2':
-        $mensaje="Usuario no identificado";
-        break;
-
-      case '3':
-        $mensaje="Acceso no válido - Debe inicar sesión";
-        break;
-      
-      default:
-        $mensaje="";
-        break;
-    }
-    ?>
-
-    <h1 class="text-danger"><?php echo $mensaje; ?></h1>
+    if(isset($msg)) {
+			switch ($msg) {
+				case '1':
+					$mensaje="Gracias por utilizar nuestro sistema";
+					break;
+	
+				case '2':
+					$mensaje="Usuario no identificado";
+					break;
+	
+				case '3':
+					$mensaje="Acceso no válido - Debe inicar sesión";
+					break;
+				
+				default:
+					$mensaje="";
+					break;
+			}
+			?><h1 class="text-danger"><?php echo $mensaje; ?></h1><?php
+		}
+		?>    
 
     <?php echo form_open_multipart('usuarios/validar'); ?>
       

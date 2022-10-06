@@ -149,11 +149,51 @@
 						<a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>" aria-expanded="false">
 							<i class="mdi mdi-view-dashboard"></i>
 							<span class="hide-menu">
-								LISTA PROF. ACTIVOS
+								1. GOOGLE FONTS
 							</span>
 						</a>
 					</li>
 					<li class="sidebar-item">
+						<a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>" aria-expanded="false">
+							<i class="mdi mdi-account-network"></i>
+							<span class="hide-menu">
+								<?php echo form_open_multipart('tercertrimestre/mapauno'); ?>
+								<button type="submit" class="btn">2. MAPA UNO</button>
+								<?php echo form_close(); ?>
+							</span>
+						</a>
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>" aria-expanded="false">
+							<i class="mdi mdi-account-network"></i>
+							<span class="hide-menu">
+								<?php echo form_open_multipart('tercertrimestre/mapados'); ?>
+								<button type="submit" class="btn">3. MAPA DOS</button>
+								<?php echo form_close(); ?>
+							</span>
+						</a>
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>" aria-expanded="false">
+							<i class="mdi mdi-account-network"></i>
+							<span class="hide-menu">
+								<?php echo form_open_multipart('tercertrimestre/mapatres'); ?>
+								<button type="submit" class="btn">4. MAPA TRES</button>
+								<?php echo form_close(); ?>
+							</span>
+						</a>
+					</li>
+					<li class="sidebar-item">
+						<a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>" aria-expanded="false">
+							<i class="mdi mdi-account-network"></i>
+							<span class="hide-menu">
+								<?php echo form_open_multipart('tercertrimestre/widgetsfacebook'); ?>
+								<button type="submit" class="btn">5. WIDGETS FACEBOOK</button>
+								<?php echo form_close(); ?>
+							</span>
+						</a>
+					</li>
+					<!-- <li class="sidebar-item">
 						<a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>" aria-expanded="false">
 							<i class="mdi mdi-account-network"></i>
 							<span class="hide-menu">
@@ -209,7 +249,7 @@
 					<li class="text-center p-40 upgrade-btn">
 						<a href="<?php echo base_url(); ?>"
 							class="btn d-block w-100 btn-danger text-white" target="_blank">TABLERO</a>
-					</li>
+					</li> -->
 				</ul>
 
 			</nav>
@@ -224,21 +264,3 @@
 	<!-- Page wrapper  -->
 	<!-- ============================================================== -->
 	<div class="page-wrapper">
-		<!-- ============================================================== -->
-		<!-- Bread crumb and right sidebar toggle -->
-		<!-- ============================================================== -->
-		<div class="page-breadcrumb">
-			<div class="row align-items-center">
-				<div class="col-5">
-					<h4 class="page-title">TABLAS DE USUARIOS</h4>
-					<div class="d-flex align-items-center">
-						<nav aria-label="breadcrumb">
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">Inicio</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Tablas</li>
-							</ol>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>

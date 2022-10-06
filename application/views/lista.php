@@ -1,8 +1,27 @@
+<!-- ============================================================== -->
+<!-- Bread crumb and right sidebar toggle -->
+<!-- ============================================================== -->
+<div class="page-breadcrumb">
+	<div class="row align-items-center">
+		<div class="col-5">
+			<h4 class="page-title">MAPA UNO</h4>
+			<div class="d-flex align-items-center">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="<?php echo base_url(); ?>">Inicio</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Mapa uno</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container">
   <div class="row">
     <div class="col-md-12">
 
-    <h3>LISTA PROFESORES ACTIVOS</h3>
+    <h3 class="titularx">LISTA PROFESORES ACTIVOS</h3>
       
       
       
@@ -33,7 +52,7 @@
               <th scope="col">Eliminar</th>            
             </tr>
           </thead>
-          <tbody>
+          <tbody class="txtable">
           <?php
           $indice=1;
           foreach ($profesores->result() as $row)
