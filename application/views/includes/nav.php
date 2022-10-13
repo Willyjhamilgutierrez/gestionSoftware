@@ -213,14 +213,17 @@
 							</span>
 						</a>
 					</li>
-					<!--<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-							href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-face"></i><span
-								class="hide-menu">
+					<li class="sidebar-item">
+						<a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo base_url(); ?>" aria-expanded="false">
+							<i class="mdi mdi-face"></i>
+							<span class="hide-menu">
 								<?php echo form_open_multipart('estudiante/agregar'); ?>      
 								<button type="submit" class="btn">AGREGAR ESTUDIANTE</button>
 								<?php echo form_close(); ?>
-							</span></a></li>
-					<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+							</span>
+						</a>
+					</li>
+					<!--<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
 							href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-checkbox-marked"></i><span
 								class="hide-menu">
 								<?php echo form_open_multipart('estudiante/verinactivos'); ?>
