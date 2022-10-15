@@ -223,14 +223,17 @@
 							</span>
 						</a>
 					</li>
-					<!--<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
-							href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-checkbox-marked"></i><span
-								class="hide-menu">
+					<li class="sidebar-item">
+						<a class="sidebar-link waves-effect waves-dark sidebar-link"	href="<?php echo base_url(); ?>" aria-expanded="false">
+							<i class="mdi mdi-checkbox-marked"></i>
+							<span class="hide-menu">
 								<?php echo form_open_multipart('estudiante/verinactivos'); ?>
 								<button type="submit" class="btn">EST. INACTIVADOS</button>
 								<?php echo form_close(); ?>
-							</span></a></li>
-					<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
+							</span>
+						</a>
+					</li>
+					<!--<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link"
 							href="<?php echo base_url(); ?>" aria-expanded="false"><i class="mdi mdi-credit-card-multiple"></i><span
 								class="hide-menu">CRITERIOS DE CALIF.</span></a></li>
 					<li class="text-center p-40 upgrade-btn">
